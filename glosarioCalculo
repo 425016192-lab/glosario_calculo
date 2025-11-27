@@ -1,15 +1,18 @@
 """
-Glosario de Cálculo 
+Glosario de Cálculo Vectorial
 Autores:
-López Hernández Rommel Rodrigo 
-Pérez Mora Ximena
-Sandoval Domínguez Angel Giovanni 
-Dávila Cedillo Emanuel
-Montoya Salinas Aldair 
-Valencia Díaz Abraham Javet
+- López Hernández Rommel Rodrigo
+- Pérez Mora Ximena
+- Sandoval Domínguez Angel Giovanni
+- Dávila Cedillo Emanuel
+- Montoya Salinas Aldair
+- Valencia Díaz Abraham Javet
+
+Diccionario estructurado con definiciones claras para estudio,
+consulta rápida y uso educativo.
 """
 
-glosarioCalculo= {
+glosario_calculo_vectorial = {
     "Base": (
         "Una base es un conjunto de vectores linealmente independientes "
         "que generan un espacio vectorial."
@@ -49,140 +52,97 @@ glosarioCalculo= {
         "a rotar alrededor de esa curva."
     ),
 
+    "Componente": (
+        "Cada una de las partes escalares que conforman un vector en una base dada."
+    ),
+
     "Coordenadas_cilindricas": (
-        "Sistema de coordenadas basado en radio, ángulo y altura."
+        "Sistema de coordenadas basado en (r, θ, z) que resulta útil para simetrías "
+        "circulares."
     ),
 
     "Coordenadas_esfericas": (
-        "Sistema de coordenadas que describe un punto mediante una distancia al origen "
-        "y dos ángulos."
-    ),
-
-    "Coordenadas_polares": (
-        "Representación de puntos del plano mediante radio y ángulo."
+        "Sistema de coordenadas basado en (ρ, θ, φ), adecuado para simetrías radiales."
     ),
 
     "Curva_parametrica": (
-        "Una curva paramétrica es una función vectorial que describe una trayectoria "
-        "en el plano o en el espacio."
-    ),
-
-    "Curvatura": (
-        "La curvatura mide qué tanto cambia la dirección del vector tangente con "
-        "respecto a la longitud de arco."
-    ),
-
-    "Derivada_direccional": (
-        "La derivada direccional mide la tasa de cambio de una función escalar en una "
-        "dirección específica."
-    ),
-
-    "Derivada_parcial": (
-        "La derivada parcial mide la tasa de cambio de una función respecto a una variable, "
-        "manteniendo las demás constantes."
+        "Representación de una curva mediante funciones que dependen de un parámetro."
     ),
 
     "Divergencia": (
-        "La divergencia mide la tendencia de un campo vectorial a 'salir' o 'entrar' "
-        "de un punto."
+        "La divergencia mide la tasa de expansión o compresión de un campo vectorial."
     ),
 
-    "Flujo_de_un_campo": (
-        "El flujo mide cuánto de un campo vectorial atraviesa una superficie dada."
+    "Flujo": (
+        "El flujo mide la cantidad de campo vectorial que atraviesa una superficie dada."
     ),
 
     "Gradiente": (
-        "El gradiente de un campo escalar es un vector que indica la dirección de máximo "
-        "crecimiento de la función."
-    ),
-
-    "Hessiano": (
-        "El Hessiano es una matriz cuadrada que contiene todas las segundas derivadas "
-        "parciales de una función."
+        "El gradiente de un campo escalar produce un campo vectorial que indica dirección "
+        "y rapidez del mayor incremento."
     ),
 
     "Integral_de_linea": (
-        "La integral de línea evalúa funciones vectoriales o escalares a lo largo de una curva."
+        "Integral que evalúa un campo a lo largo de una curva."
     ),
 
-    "Integral_doble": (
-        "Una integral doble calcula el valor acumulado de un campo escalar en una región 2D."
+    "Integral_de_superficie": (
+        "Integral que evalúa un campo sobre una superficie bidimensional."
     ),
 
     "Integral_triple": (
-        "Una integral triple calcula el acumulado de una función en un volumen tridimensional."
+        "Integral que evalúa funciones en volúmenes tridimensionales."
     ),
 
     "Jacobiano": (
-        "El jacobiano es la matriz de derivadas parciales de una función vectorial. "
-        "Su determinante representa el factor de escala en cambios de variables."
-    ),
-
-    "Longitud_de_arco": (
-        "La longitud de arco mide la distancia total recorrida a lo largo de una curva."
-    ),
-
-    "Marco_de_Frenet_Serret": (
-        "Sistema ortonormal formado por los vectores tangente, normal y binormal que "
-        "describe la geometría local de una curva espacial."
+        "Determinante que aparece en cambios de variables para ajustar factores de escala."
     ),
 
     "Magnitud": (
-        "La magnitud de un vector es su longitud total, calculada como la raíz cuadrada "
-        "de la suma de los cuadrados de sus componentes."
+        "Longitud o tamaño de un vector."
     ),
 
-    "Normal_de_superficie": (
-        "Vector perpendicular a una superficie en cada punto, útil para flujos e integrales."
+    "Normal": (
+        "Vector perpendicular a una superficie."
     ),
 
-    "Ortogonalidad": (
-        "Dos vectores son ortogonales si su producto escalar es cero, es decir, forman "
-        "90 grados entre sí."
+    "Producto_cruz": (
+        "Operación entre dos vectores en R³ que produce un tercer vector perpendicular "
+        "a ambos."
     ),
 
-    "Plano_tangente": (
-        "El plano tangente es la mejor aproximación lineal a una superficie en un punto específico."
+    "Producto_punto": (
+        "Operación que mide el grado de alineación entre dos vectores, generando un escalar."
     ),
 
-    "Potencial_escalar": (
-        "Función cuyo gradiente genera un campo conservativo."
-    ),
-
-    "Producto_escalar": (
-        "Operación entre dos vectores que produce un número real. Útil para calcular proyecciones "
-        "y ángulos."
-    ),
-
-    "Producto_vectorial": (
-        "Operación entre dos vectores en R³ que produce un tercer vector perpendicular a ambos."
-    ),
-
-    "Proyección_vectorial": (
-        "La proyección vectorial representa la componente de un vector sobre otro."
-    ),
-
-    "Regla_de_la_cadena_multivariable": (
-        "Método para derivar funciones compuestas que dependen de múltiples variables."
+    "Proyeccion": (
+        "Sombra de un vector sobre otro."
     ),
 
     "Rotacional": (
-        "El rotacional mide la tendencia de un campo vectorial a rotar alrededor de un punto."
+        "Indica la tendencia de un campo vectorial a girar alrededor de un punto."
     ),
 
     "Superficie_parametrica": (
-        "Superficie definida por una función de dos parámetros que generan coordenadas 3D."
+        "Superficie descrita mediante dos parámetros independientes."
     ),
 
-    "Torsion": (
-        "La torsión de una curva espacial indica cuánto se desvía del plano osculador."
+    "Teorema_de_Stokes": (
+        "Relaciona la circulación de un campo vectorial alrededor de una curva con el "
+        "rotacional sobre la superficie que la delimita."
     ),
 
-    "Vector": (
-        "Entidad matemática con magnitud y dirección usada para describir desplazamientos, fuerzas, etc."
+    "Teorema_de_Gauss": (
+        "Afirma que el flujo neto de un campo a través de una superficie cerrada es igual "
+        "a la integral de la divergencia en el volumen."
+    ),
+
+    "Teorema_de_Green": (
+        "Relaciona una integral de línea en 2D con una integral doble sobre una región plana."
     ),
 
     "Vector_unitario": (
-        "Vector con magnitud igual a 1, usado para representar direcciones puras."
-    )
+        "Vector con magnitud igual a 1 que indica dirección."
+    ),
 }
+
