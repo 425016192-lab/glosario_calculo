@@ -15,6 +15,3 @@ Repositorio creado para almacenar un **glosario completo de Cálculo Vectorial**
 ---
 
 ```python
-from glosarioCalculo import glosarioCalculo
-
-print(glosarioCalculo["Gradiente"])
