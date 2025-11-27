@@ -1,0 +1,160 @@
+# 📘 Glosario de Cálculo Vectorial
+
+Autores:
+- López Hernández Rommel Rodrigo
+- Pérez Mora Ximena
+- Sandoval Domínguez Ángel Giovanni
+- Dávila Cedillo Emanuel
+- Montoya Salinas Aldair
+- Valencia Díaz Abraham Javet
+
+---
+
+# 📚 Definiciones del Glosario
+
+---
+
+## **Base**
+Una base es un conjunto de vectores linealmente independientes que generan un espacio vectorial.
+
+---
+
+## **Cambio de variables**
+Transformación que permite pasar integrales múltiples a un sistema de coordenadas más conveniente usando el jacobiano como factor de escala.
+
+---
+
+## **Campo conservativo**
+Campo vectorial que puede expresarse como el gradiente de un potencial escalar.
+
+---
+
+## **Campo escalar**
+Asigna un número real a cada punto del espacio.
+
+---
+
+## **Campo irrotacional**
+Campo cuyo rotacional es cero.
+
+---
+
+## **Campo solenoidal**
+Campo cuya divergencia es cero.
+
+---
+
+## **Campo vectorial**
+Asigna un vector a cada punto del espacio.
+
+---
+
+## **Circulación**
+Mide la tendencia a rotar de un campo alrededor de una curva cerrada.
+
+---
+
+## **Coordenadas cilíndricas**
+Sistema basado en (r, θ, z).
+
+---
+
+## **Coordenadas esféricas**
+Sistema basado en (ρ, θ, φ).
+
+---
+
+## **Curva paramétrica**
+Curva descrita mediante funciones dependientes de un parámetro.
+
+---
+
+## **Divergencia**
+Mide la expansión o compresión de un campo vectorial.
+
+---
+
+## **Flujo**
+Cantidad de campo que atraviesa una superficie.
+
+---
+
+## **Gradiente**
+Dirección y magnitud del mayor crecimiento de un campo escalar.
+
+---
+
+## **Integral de línea**
+Evalúa un campo sobre una curva.
+
+---
+
+## **Integral de superficie**
+Evalúa un campo sobre una superficie.
+
+---
+
+## **Integral triple**
+Integra funciones en un volumen tridimensional.
+
+---
+
+## **Jacobiano**
+Determinante usado como factor de escala en transformaciones.
+
+---
+
+## **Magnitud**
+Longitud o tamaño de un vector.
+
+---
+
+## **Normal**
+Vector perpendicular a una superficie.
+
+---
+
+## **Producto cruz**
+Devuelve un vector perpendicular a dos vectores dados.
+
+---
+
+## **Producto punto**
+Mide la alineación entre dos vectores.
+
+---
+
+## **Proyección**
+Sombra de un vector sobre otro.
+
+---
+
+## **Rotacional**
+Mide la tendencia de un campo a girar.
+
+---
+
+## **Superficie paramétrica**
+Superficie descrita mediante dos parámetros.
+
+---
+
+## **Teorema de Stokes**
+Relaciona la circulación de un campo con el rotacional sobre una superficie.
+
+---
+
+## **Teorema de Gauss**
+Relación entre flujo y divergencia en un volumen.
+
+---
+
+## **Teorema de Green**
+Vincula integrales de línea con integrales dobles en el plano.
+
+---
+
+## **Vector unitario**
+Vector con magnitud igual a 1.
+
+---
