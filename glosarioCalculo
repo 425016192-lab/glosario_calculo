@@ -1,16 +1,13 @@
-"""
-Glosario de Cálculo Vectorial
-Autores:
-- López Hernández Rommel Rodrigo
-- Pérez Mora Ximena
-- Sandoval Domínguez Angel Giovanni
-- Dávila Cedillo Emanuel
-- Montoya Salinas Aldair
-- Valencia Díaz Abraham Javet
-
-Diccionario estructurado con definiciones claras para estudio,
-consulta rápida y uso educativo.
-"""
+# ============================================
+#  Glosario de Cálculo Vectorial – Python
+#  Autores:
+#   - López Hernández Rommel Rodrigo
+#   - Pérez Mora Ximena
+#   - Sandoval Domínguez Ángel Giovanni
+#   - Dávila Cedillo Emanuel
+#   - Montoya Salinas Aldair
+#   - Valencia Díaz Abraham Javet
+# ============================================
 
 glosario_calculo_vectorial = {
     "Base": (
@@ -20,86 +17,77 @@ glosario_calculo_vectorial = {
 
     "Cambio_de_variables": (
         "Técnica que transforma integrales múltiples a sistemas de coordenadas "
-        "más convenientes. Utiliza el determinante jacobiano como factor de escala."
+        "más convenientes. Usa el jacobiano como factor de escala."
     ),
 
     "Campo_conservativo": (
-        "Un campo conservativo es un campo vectorial que puede expresarse como el "
-        "gradiente de un potencial escalar. La integral de línea depende solo de los "
-        "puntos inicial y final."
+        "Un campo conservativo es aquel que puede expresarse como el gradiente "
+        "de un potencial escalar."
     ),
 
     "Campo_escalar": (
-        "Un campo escalar asigna un número real a cada punto del espacio."
+        "Asigna un número real a cada punto del espacio."
     ),
 
     "Campo_irrotacional": (
-        "Un campo irrotacional es un campo vectorial cuyo rotacional es cero, lo que "
-        "indica ausencia de giro local."
+        "Campo cuyo rotacional es cero, indicando ausencia de giro."
     ),
 
     "Campo_solenoidal": (
-        "Un campo solenoidal es un campo vectorial cuya divergencia es cero. Representa "
-        "la ausencia de fuentes y sumideros."
+        "Campo vectorial cuya divergencia es cero; sin fuentes ni sumideros."
     ),
 
     "Campo_vectorial": (
-        "Un campo vectorial asigna un vector a cada punto del espacio."
+        "Asigna un vector a cada punto del espacio."
     ),
 
     "Circulacion": (
-        "La circulación de un campo vectorial sobre una curva cerrada mide su tendencia "
-        "a rotar alrededor de esa curva."
-    ),
-
-    "Componente": (
-        "Cada una de las partes escalares que conforman un vector en una base dada."
+        "Mide la tendencia de un campo a girar alrededor de una curva cerrada."
     ),
 
     "Coordenadas_cilindricas": (
-        "Sistema de coordenadas basado en (r, θ, z) que resulta útil para simetrías "
-        "circulares."
+        "Sistema de coordenadas basado en (r, θ, z)."
     ),
 
     "Coordenadas_esfericas": (
-        "Sistema de coordenadas basado en (ρ, θ, φ), adecuado para simetrías radiales."
+        "Sistema basado en (ρ, θ, φ)."
     ),
 
     "Curva_parametrica": (
-        "Representación de una curva mediante funciones que dependen de un parámetro."
+        "Una curva descrita mediante funciones dependientes de un parámetro."
     ),
 
     "Divergencia": (
-        "La divergencia mide la tasa de expansión o compresión de un campo vectorial."
+        "Mide la expansión o compresión de un campo vectorial."
     ),
 
     "Flujo": (
-        "El flujo mide la cantidad de campo vectorial que atraviesa una superficie dada."
+        "Cantidad de campo vectorial que atraviesa una superficie."
     ),
 
     "Gradiente": (
-        "El gradiente de un campo escalar produce un campo vectorial que indica dirección "
-        "y rapidez del mayor incremento."
+        "Dirección de máximo crecimiento de un campo escalar."
     ),
 
     "Integral_de_linea": (
-        "Integral que evalúa un campo a lo largo de una curva."
+        "Evalúa un campo escalar o vectorial sobre una curva."
     ),
 
     "Integral_de_superficie": (
-        "Integral que evalúa un campo sobre una superficie bidimensional."
+        "Evalúa un campo sobre una superficie parametrizada."
     ),
 
     "Integral_triple": (
-        "Integral que evalúa funciones en volúmenes tridimensionales."
+        "Evalúa funciones dentro de volúmenes tridimensionales."
     ),
 
     "Jacobiano": (
-        "Determinante que aparece en cambios de variables para ajustar factores de escala."
+        "Determinante que actúa como factor de escala en cambios de coordenadas."
     ),
 
     "Magnitud": (
-        "Longitud o tamaño de un vector."
+        "Longitud o tamaño de un vector, calculada como la raíz cuadrada del "
+        "sumatorio de los cuadrados de sus componentes."
     ),
 
     "Normal": (
@@ -107,42 +95,39 @@ glosario_calculo_vectorial = {
     ),
 
     "Producto_cruz": (
-        "Operación entre dos vectores en R³ que produce un tercer vector perpendicular "
-        "a ambos."
+        "Operación vectorial que produce un vector perpendicular a dos vectores dados."
     ),
 
     "Producto_punto": (
-        "Operación que mide el grado de alineación entre dos vectores, generando un escalar."
+        "Operación que mide la alineación de dos vectores."
     ),
 
     "Proyeccion": (
-        "Sombra de un vector sobre otro."
+        "Proyección o sombra de un vector sobre otro."
     ),
 
     "Rotacional": (
-        "Indica la tendencia de un campo vectorial a girar alrededor de un punto."
+        "Mide la tendencia a rotar de un campo vectorial."
     ),
 
     "Superficie_parametrica": (
-        "Superficie descrita mediante dos parámetros independientes."
+        "Superficie descrita mediante dos parámetros."
     ),
 
     "Teorema_de_Stokes": (
-        "Relaciona la circulación de un campo vectorial alrededor de una curva con el "
-        "rotacional sobre la superficie que la delimita."
+        "Relaciona la circulación de un campo con el rotacional sobre una superficie."
     ),
 
     "Teorema_de_Gauss": (
-        "Afirma que el flujo neto de un campo a través de una superficie cerrada es igual "
-        "a la integral de la divergencia en el volumen."
+        "El flujo neto de un campo sobre una superficie cerrada iguala la "
+        "integral de la divergencia dentro del volumen."
     ),
 
     "Teorema_de_Green": (
-        "Relaciona una integral de línea en 2D con una integral doble sobre una región plana."
+        "Relaciona integrales de línea con integrales dobles en regiones planas."
     ),
 
     "Vector_unitario": (
-        "Vector con magnitud igual a 1 que indica dirección."
+        "Vector de longitud 1 que indica dirección."
     ),
 }
-
