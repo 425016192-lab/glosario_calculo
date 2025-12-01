@@ -154,6 +154,1777 @@ Relación entre flujo y divergencia en un volumen.
 Vincula integrales de línea con integrales dobles en el plano.
 
 ---
+---
+
+## **Espacio vectorial**
+Conjunto con operaciones de suma y producto por un escalar que cumplen ciertos axiomas, como asociatividad, conmutatividad y existencia de neutro.
+
+---
+
+## **Vector**
+Entidad con magnitud y dirección, representada como un elemento de un espacio vectorial.
+
+---
+
+## **Magnitud**
+Longitud o tamaño de un vector, calculado mediante una norma.
+
+---
+
+## **Dirección**
+Orientación de un vector en el espacio.
+
+---
+
+## **Norma**
+Función que asigna una longitud a cada vector y cumple ciertos axiomas.
+
+---
+
+## **Distancia**
+Medida entre dos puntos, generalmente la norma de su diferencia.
+
+---
+
+## **Suma de vectores**
+Operación que combina dos vectores para producir un tercero mediante suma componente a componente.
+
+---
+
+## **Producto por un escalar**
+Multiplicación de un vector por un número real o complejo.
+
+---
+
+## **Combinación lineal**
+Expresión formada por sumas de múltiplos escalares de vectores.
+
+---
+
+## **Independencia lineal**
+Conjunto donde la única combinación lineal que da cero es la trivial.
+
+---
+
+## **Dependencia lineal**
+Conjunto donde existe una combinación lineal no trivial que da cero.
+
+---
+
+## **Base**
+Conjunto de vectores linealmente independientes que generan todo el espacio vectorial.
+
+---
+
+## **Dimensión**
+Número de vectores en cualquier base del espacio.
+
+---
+
+## **Subespacio**
+Conjunto cerrado bajo suma y producto por escalar que forma un espacio vectorial.
+
+---
+
+## **Span**
+Conjunto de todas las combinaciones lineales de un conjunto dado de vectores.
+
+---
+
+## **Sistema generador**
+Conjunto de vectores cuyo span abarca todo el espacio.
+
+---
+
+## **Vector unitario**
+Vector con norma igual a uno.
+
+---
+
+## **Normalización**
+Proceso de convertir un vector en unitario dividiéndolo entre su norma.
+
+---
+
+## **Producto punto**
+Operación que mide proyección, relación angular o magnitudes, definida como suma de productos componente a componente.
+
+---
+
+## **Ortogonalidad**
+Dos vectores son ortogonales cuando su producto punto es cero.
+
+---
+
+## **Ortonormalidad**
+Conjunto de vectores unitarios y mutuamente ortogonales.
+
+---
+
+## **Proyección**
+Vector resultante de proyectar un vector sobre otro.
+
+---
+
+## **Ángulo entre vectores**
+Magnitud que indica la inclinación relativa entre dos vectores.
+
+---
+
+## **Producto cruz**
+Operación entre vectores en R³ que produce un vector perpendicular a ambos.
+
+---
+
+## **Área del paralelogramo**
+Magnitud dada por la norma del producto cruz de dos vectores.
+
+---
+
+## **Volumen del paralelepípedo**
+Determinante formado por tres vectores.
+
+---
+
+## **Matriz**
+Arreglo rectangular de números organizado en filas y columnas.
+
+---
+
+## **Determinante**
+Valor escalar asociado a una matriz cuadrada que indica escalamiento de volumen.
+
+---
+
+## **Matriz inversa**
+Matriz que multiplicada por la original da la identidad.
+
+---
+
+## **Matriz identidad**
+Matriz con 1 en la diagonal y 0 en otra parte.
+
+---
+
+## **Matriz transpuesta**
+Matriz obtenida al intercambiar filas por columnas.
+
+---
+
+## **Matriz simétrica**
+Matriz igual a su transpuesta.
+
+---
+
+## **Matriz antisimétrica**
+Matriz cuya transpuesta es su negativo.
+
+---
+
+## **Matriz diagonal**
+Matriz donde todos los elementos fuera de la diagonal son cero.
+
+---
+
+## **Matriz ortogonal**
+Matriz cuyas columnas forman un conjunto ortonormal.
+
+---
+
+## **Producto de matrices**
+Operación definida por sumas y productos de entradas según filas y columnas.
+
+---
+
+## **Sistemas de ecuaciones lineales**
+Colección de ecuaciones que pueden representarse mediante matrices y vectores.
+
+---
+
+## **Solución única**
+Cuando el sistema tiene exactamente una solución.
+
+---
+
+## **Infinitas soluciones**
+Cuando cada ecuación aporta información dependiente o insuficiente.
+
+---
+
+## **Sin solución**
+Cuando las ecuaciones son inconsistentes.
+
+---
+
+## **Método de eliminación gaussiana**
+Procedimiento para resolver sistemas transformándolos en forma escalonada.
+
+---
+
+## **Forma escalonada**
+Matriz con ceros debajo de la diagonal principal.
+
+---
+
+## **Forma reducida**
+Matriz escalonada donde también los elementos sobre el pivote son cero.
+
+---
+
+## **Pivote**
+Primer valor no cero de una fila escalonada.
+
+---
+
+## **Transformaciones elementales**
+Operaciones permitidas para manipular matrices sin cambiar soluciones del sistema.
+
+---
+
+## **Autovalores**
+Escalares asociados a una matriz donde existe un vector no trivial que se escala bajo la transformación.
+
+---
+
+## **Autovectores**
+Vectores que satisfacen Ax = λx.
+
+---
+
+## **Polinomio característico**
+Polinomio asociado a una matriz cuyos ceros son los autovalores.
+
+---
+
+## **Diagonalización**
+Proceso de escribir una matriz como PDP⁻¹ donde D es diagonal.
+
+---
+
+## **Multiplicidad algebraica**
+Número de veces que un autovalor aparece como raíz del polinomio característico.
+
+---
+
+## **Multiplicidad geométrica**
+Dimensión del espacio propio de un autovalor.
+
+---
+
+## **Espacio propio**
+Conjunto de vectores asociados a un autovalor.
+
+---
+
+## **Transformación lineal**
+Función entre espacios vectoriales que respeta suma y multiplicación por escalar.
+
+---
+
+## **Kernel**
+Conjunto de vectores que se transforman en cero.
+
+---
+
+## **Imagen**
+Conjunto de vectores obtenibles por la transformación.
+
+---
+
+## **Rango**
+Dimensión de la imagen.
+
+---
+
+## **Nulidad**
+Dimensión del kernel.
+
+---
+
+## **Teorema rango-nulidad**
+Afirma que rango + nulidad = dimensión del dominio.
+
+---
+
+## **Función escalar**
+Asigna un número real a cada punto del espacio.
+
+---
+
+## **Función vectorial**
+Asigna un vector a cada punto del espacio.
+
+---
+
+## **Curva en el espacio**
+Función vectorial de una variable real.
+
+---
+
+## **Parametrización**
+Representación de una curva mediante funciones de un parámetro.
+
+---
+
+## **Longitud de arco**
+Longitud de una curva calculada mediante integrales.
+
+---
+
+## **Velocidad**
+Derivada de la curva respecto al parámetro.
+
+---
+
+## **Aceleración**
+Derivada de la velocidad.
+
+---
+
+## **Curvatura**
+Medida de desviación de una curva respecto a una línea recta.
+
+---
+
+## **Torsión**
+Medida de la desviación de una curva del plano osculador.
+
+---
+
+## **Marco de Frenet-Serret**
+Conjunto de vectores tangente, normal y binormal asociados a una curva.
+
+---
+
+## **Superficie**
+Conjunto bidimensional inmerso en R³.
+
+---
+
+## **Curvas de nivel**
+Conjuntos donde una función escalar toma un valor fijo.
+
+---
+
+## **Superficies de nivel**
+Generalización en R³ de curvas de nivel.
+
+---
+
+## **Gradiente**
+Vector de derivadas parciales que apunta en la dirección de máximo crecimiento.
+
+---
+
+## **Divergencia**
+Medida del flujo saliente de un campo vectorial desde un punto.
+
+---
+
+## **Rotacional**
+Medida de tendencia a rotar de un campo vectorial.
+
+---
+
+## **Campo conservativo**
+Campo que puede expresarse como gradiente de un potencial.
+
+---
+
+## **Potencial escalar**
+Función cuyo gradiente genera un campo conservativo.
+
+---
+
+## **Línea de flujo**
+Curva tangente al campo vectorial en cada punto.
+
+---
+
+## **Integral de línea**
+Integral evaluada a lo largo de una curva, asociada a trabajo o circulación.
+
+---
+
+## **Trabajo**
+Integral de línea de un campo de fuerzas.
+
+---
+
+## **Circulación**
+Integral de línea alrededor de una curva cerrada.
+
+---
+
+## **Flujo**
+Cantidad del campo que atraviesa una superficie.
+
+---
+
+## **Integral de superficie**
+Integral definida sobre una superficie sumando contribuciones infinitesimales.
+
+---
+
+## **Integrales múltiples**
+Extensión de integración a varias variables.
+
+---
+
+## **Cambio de variables**
+Transformación que ajusta integrales múltiples usando el jacobiano.
+
+---
+
+## **Jacobiano**
+Determinante que cuantifica el cambio de área o volumen bajo una transformación.
+
+---
+
+## **Coordenadas polares**
+Sistema que describe puntos mediante r y θ.
+
+---
+
+## **Coordenadas cilíndricas**
+Extensión de las polares agregando altura z.
+
+---
+
+## **Coordenadas esféricas**
+Sistema con radio, ángulo polar y azimutal.
+
+---
+
+## **Teorema de Green**
+Relación entre integral de línea y doble integral del rotacional.
+
+---
+
+## **Teorema de Stokes**
+Generaliza Green al relacionar rotacional con integrales de superficie.
+
+---
+
+## **Teorema de Gauss-Divergencia**
+Relaciona flujo con divergencia integrada en un volumen.
+
+---
+
+## **Orientación**
+Sentido asignado a una curva o superficie.
+
+---
+
+## **Campo irrotacional**
+Campo cuyo rotacional es cero.
+
+---
+
+## **Campo solenoidal**
+Campo cuya divergencia es cero.
+
+---
+
+## **Laplaciano**
+Operador definido como la divergencia del gradiente.
+
+---
+
+## **Ecuación de Laplace**
+Ecuación donde el laplaciano de la función es cero.
+
+---
+
+## **Ecuación de Poisson**
+Generalización de la de Laplace con fuente no nula.
+
+---
+
+## **Ecuación del calor**
+Ecuación parcial que modela difusión térmica.
+
+---
+
+## **Ecuación de onda**
+Ecuación parcial que describe fenómenos ondulatorios.
+
+---
+
+## **Ecuación de transporte**
+Modelo de movimiento de cantidades conservadas.
+
+---
+
+## **Plano tangente**
+Mejor aproximación lineal a una superficie en un punto.
+
+---
+
+## **Normal a una superficie**
+Vector perpendicular al plano tangente.
+
+---
+
+## **Región simple**
+Región que puede describirse mediante cotas sin autointersecciones complicadas.
+
+---
+
+## **Región conexa**
+Región donde cualquier par de puntos puede unirse con una curva dentro de ella.
+
+---
+
+## **Región acotada**
+Región contenida dentro de un conjunto finito.
+
+---
+
+## **Función continua**
+Función sin saltos ni interrupciones.
+
+---
+
+## **Función diferenciable**
+Función con derivadas parciales que varían suavemente.
+
+---
+
+## **Función C¹**
+Función diferenciable con derivadas parciales continuas.
+
+---
+
+## **Función C²**
+Función con derivadas parciales de segundo orden continuas.
+
+---
+
+## **Hessiano**
+Matriz cuadrada de derivadas segundas.
+
+---
+
+## **Punto crítico**
+Punto donde el gradiente es cero.
+
+---
+
+## **Máximo local**
+Punto donde la función toma un valor mayor que en puntos cercanos.
+
+---
+
+## **Mínimo local**
+Punto donde la función toma un valor menor que en puntos cercanos.
+
+---
+
+## **Silla**
+Punto crítico donde la superficie cambia de curvatura en distintas direcciones.
+
+---
+
+## **Derivada direccional**
+Tasa de cambio en la dirección de un vector unitario.
+
+---
+
+## **Regla de la cadena**
+Relación para derivar funciones compuestas.
+
+---
+
+## **Diferencial**
+Aproximación lineal del cambio de una función.
+
+---
+
+## **Aproximación lineal**
+Estimación de una función mediante su plano tangente.
+
+---
+
+## **Campo escalar**
+Función que asigna un valor real a cada punto.
+
+---
+
+## **Campo vectorial**
+Función que asigna un vector a cada punto.
+
+---
+
+## **Conectividad simple**
+Región donde cada curva cerrada puede contraerse a un punto sin salir de la región.
+
+---
+
+## **Curva cerrada**
+Curva cuyo punto inicial coincide con el final.
+
+---
+
+## **Curva simple**
+Curva que no se autointersecta.
+
+---
+
+## **Curva suave**
+Curva con derivada continua.
+
+---
+
+## **Integral impropia**
+Integral donde aparece un límite infinito o una singularidad.
+
+---
+
+## **Región tipo I**
+Región descrita mediante cotas en y dependientes de x.
+
+---
+
+## **Región tipo II**
+Región descrita mediante cotas en x dependientes de y.
+
+---
+
+## **Región tipo III**
+Región descrita mediante cotas en z dependientes de x e y.
+
+---
+
+## **Tensor**
+Objeto multilineal que generaliza vectores y matrices.
+
+---
+
+## **Aplicación bilineal**
+Función lineal en cada uno de sus argumentos.
+
+---
+
+## **Esfera**
+Conjunto de puntos a distancia constante de un centro.
+
+---
+
+## **Cilindro**
+Superficie generada por líneas paralelas a un eje.
+
+---
+
+## **Paraboloide**
+Superficie generada por ecuación cuadrática.
+
+---
+
+## **Hiperboloide**
+Superficie con secciones hiperbólicas.
+
+---
+
+## **Plano**
+Superficie definida por ecuación lineal.
+
+---
+
+## **Recta**
+Curva determinada por ecuaciones paramétricas lineales.
+
+---
+
+## **Coordenadas cartesiana**
+Sistema usual basado en ejes perpendiculares.
+
+---
+
+## **Descomposición ortogonal**
+Escritura de un vector como suma de componentes ortogonales.
+
+---
+
+## **Método de Gram-Schmidt**
+Procedimiento para obtener una base ortonormal.
+
+---
+
+## **Transformación afín**
+Suma de transformación lineal con una traslación.
+
+---
+
+## **Homotecia**
+Escalamiento uniforme respecto a un punto.
+
+---
+
+## **Simetría**
+Reflexión respecto a un eje, plano o punto.
+
+---
+
+## **Rotación**
+Transformación que gira vectores en torno a un eje.
+
+---
+
+## **Traslación**
+Desplazamiento por un vector fijo.
+
+---
+
+## **Aplicación multilineal**
+Función lineal en cada variable por separado.
+
+---
+
+## **Diferenciabilidad**
+Propiedad de tener una aproximación lineal precisa.
+
+---
+
+## **Conjunto compacto**
+Conjunto cerrado y acotado.
+
+---
+
+## **Conjunto abierto**
+Conjunto donde todos los puntos tienen vecindad interna.
+
+---
+
+## **Conjunto cerrado**
+Conjunto que contiene todos sus puntos límite.
+
+---
+
+## **Conjunto convexo**
+Conjunto donde el segmento entre dos puntos permanece dentro.
+
+---
+
+## **Extensión lineal**
+Continuación de una transformación a combinaciones lineales.
+
+---
+
+## **Dependencia funcional**
+Relación entre funciones que puede expresarse explícitamente.
+
+---
+
+## **Ecuación implícita**
+Relación entre variables no resuelta en una.
+
+---
+
+## **Teorema del valor medio**
+Extensión del teorema en varias variables.
+
+---
+
+## **Transformación ortogonal**
+Transformación que preserva normas y ángulos.
+
+---
+
+## **Operador lineal**
+Transformación lineal de un espacio a sí mismo.
+
+---
+
+## **Norma inducida**
+Norma definida mediante un producto interno.
+
+---
+
+## **Producto interno**
+Generalización del producto punto con propiedades específicas.
+
+---
+
+## **Tensor gradiente**
+Matriz de derivadas de un campo vectorial.
+
+---
+
+## **Tensor de deformación**
+Medida de cambio geométrico en mecánica.
+
+---
+
+## **Función armónica**
+Función cuyo laplaciano es cero.
+
+---
+
+## **Campo potencial**
+Campo que proviene de un gradiente.
+
+---
+
+## **Ley de conservación**
+Principio que indica que cierta magnitud permanece constante.
+
+---
+
+## **Desigualdad de Cauchy-Schwarz**
+Relación fundamental entre producto interno y norma.
+
+---
+
+## **Desigualdad triangular**
+Norma de la suma no excede la suma de normas.
+
+---
+
+## **Convergencia puntual**
+Cada punto converge independientemente.
+
+---
+
+## **Convergencia uniforme**
+Convergencia uniforme a lo largo del dominio.
+
+---
+
+## **Superficie parametrizada**
+Superficie descrita por dos parámetros.
+
+---
+
+## **Curvatura media**
+Promedio de curvaturas principales.
+
+---
+
+## **Curvatura gaussiana**
+Producto de curvaturas principales.
+
+---
+
+## **Mapeo lineal**
+Transformación que respeta estructura del espacio.
+
+---
+
+## **Ecuación paramétrica**
+Representación de una curva o superficie con parámetros.
+
+---
+
+## **Integral triple**
+Integral en el espacio tridimensional.
+
+---
+
+## **Deformación**
+Cambio geométrico en un cuerpo o región.
+
+---
+
+## **Contravariantes y covariantes**
+Diferentes tipos de componentes tensoriales.
+
+---
+
+## **Función radial**
+Función que depende solo de la distancia al origen.
+
+---
+
+## **Curva rectificable**
+Curva de longitud finita.
+
+---
+
+## **Región regular**
+Región donde las fronteras pueden describirse suavemente.
+
+---
+
+## **Dilatación**
+Escalamiento de variables.
+
+---
+
+## **Compacidad local**
+Todo punto tiene vecindad compacta.
+
+---
+
+## **Superficie diferenciable**
+Superficie con buena estructura para cálculo.
+
+---
+
+## **Punto ordinario**
+Punto donde las ecuaciones definen suavemente la superficie.
+
+---
+
+## **Punto singular**
+Punto donde la superficie pierde suavidad.
+
+---
+
+## **Función acotada**
+Función que no tiende a infinito.
+
+---
+
+## **Función de soporte compacto**
+Función que vale cero fuera de un conjunto acotado.
+
+---
+
+## **Transformación suave**
+Transformación con derivadas continuas.
+
+---
+
+## **Campo de gradiente**
+Campo derivado de un potencial.
+
+---
+
+## **Función estrictamente convexa**
+Su segunda derivada es positiva.
+
+---
+
+## **Función estrictamente cóncava**
+Segunda derivada negativa.
+
+---
+
+## **Mínimos globales**
+Puntos donde la función toma su valor absoluto mínimo.
+
+---
+
+## **Máximos globales**
+Puntos donde toma su valor absoluto máximo.
+
+---
+
+## **Región simplemente conexa**
+Región sin agujeros.
+
+---
+
+## **Región multiconexa**
+Región con agujeros internos.
+
+---
+
+## **Expansión lineal**
+Aproximación mediante primera derivada.
+
+---
+
+## **Jacobiano inverso**
+Determinante de la transformación inversa.
+
+---
+
+## **Superficie cerrada**
+Superficie sin frontera, como una esfera.
+
+---
+
+## **Superficie con borde**
+Superficie que tiene una curva como límite.
+
+---
+
+## **Cilindro elíptico**
+Cilindro con sección elíptica.
+
+---
+
+## **Cilindro parabólico**
+Cilindro definido por parábolas.
+
+---
+
+## **Región de integración**
+Conjunto donde se evalúa una integral múltiple.
+
+---
+
+## **Densidad**
+Factor que ajusta masa, carga u otra magnitud.
+
+---
+
+## **Centro de masa**
+Promedio ponderado por densidad.
+
+---
+
+## **Momento de inercia**
+Medida de resistencia rotacional.
+
+---
+
+## **Eje de rotación**
+Línea alrededor de la cual rota un objeto.
+
+---
+
+## **Condición de exactitud**
+Criterio para que un campo sea conservativo.
+
+---
+
+## **Operador diferencial**
+Objeto que actúa sobre funciones por derivación.
+
+---
+
+## **Ecuación diferencial parcial**
+Ecuación que involucra derivadas respecto de varias variables.
+
+---
+
+## **Coeficientes direccionales**
+Componentes en la dirección de una base.
+
+---
+
+## **Vectores propios**
+Sinónimo de autovectores.
+
+---
+
+## **Transformación canónica**
+Cambios de coordenadas especiales.
+
+---
+
+## **Área**
+Medida bidimensional de una región.
+
+---
+
+## **Volumen**
+Medida tridimensional de una región.
+
+---
+
+## **Esfera unitaria**
+Esfera de radio uno.
+
+---
+
+## **Disco unitario**
+Disco de radio uno.
+
+---
+
+## **Derivada parcial**
+Derivada respecto a una sola variable manteniendo las otras fijas.
+
+---
+
+## **Matriz jacobiana**
+Matriz de derivadas parciales completa.
+
+---
+
+## **Campo estacionario**
+Campo sin dependencia temporal.
+
+---
+
+## **Curva transversal**
+Curva que cruza otra sin ser tangente.
+
+---
+
+## **Superficie mínima**
+Superficie que minimiza área localmente.
+
+---
+
+## **Función diferenciable a trozos**
+Función diferenciable en subregiones.
+
+---
+
+## **Partición**
+División del dominio para definir integrales.
+
+---
+
+## **Suma de Riemann**
+Aproximación para integrales.
+
+---
+
+## **Malla**
+Conjunto de subregiones para integración.
+
+---
+
+## **Refinamiento**
+División más fina de una partición.
+
+---
+
+## **Convergencia de sumas**
+Tendencia de las sumas de Riemann al valor de la integral.
+
+---
+
+## **Curva paramétrica**
+Representación de una curva mediante funciones paramétricas.
+
+---
+
+## **Curva poligonal**
+Aproximación de una curva mediante segmentos de recta.
+
+---
+
+## **Diferenciación total**
+Extensión de la derivada a varias variables.
+
+---
+
+## **Matriz de transición**
+Transforma coordenadas entre bases.
+
+---
+
+## **Cambio de base**
+Reexpresión de vectores en otra base.
+
+---
+
+## **Coordenadas locales**
+Sistema de coordenadas en una vecindad.
+
+---
+
+## **Integral absoluta**
+Integral del valor absoluto del integrando.
+
+---
+
+## **Integral condicional**
+Integral que converge sin hacerlo absolutamente.
+
+---
+
+## **Dominio no acotado**
+Región infinita.
+
+---
+
+## **Dominio regularizado**
+Región transformada para simplificar integrales.
+
+---
+
+## **Campo radial**
+Campo dirigido hacia o desde el origen.
+
+---
+
+## **Función exponencial**
+Función fundamental en análisis continuo.
+
+---
+
+## **Función logarítmica**
+Inverse de la exponencial.
+
+---
+
+## **Función trigonométrica**
+Funciones seno, coseno, etc.
+
+---
+
+## **Función hiperbólica**
+Funciones hiperbólicas análogas a las trigonométricas.
+
+---
+
+## **Coordenadas baricéntricas**
+Representación mediante pesos convexos.
+
+---
+
+## **Operador adjunto**
+Operador definido mediante producto interno.
+
+---
+
+## **Producto tensorial**
+Combinación de espacios vectoriales.
+
+---
+
+## **Geometría diferencial**
+Estudio de curvas y superficies mediante cálculo.
+
+---
+
+## **Derivada covariante**
+Derivada adaptada a geometrías curvas.
+
+---
+
+## **Manifold**
+Espacio que localmente se parece a Rⁿ.
+
+---
+
+## **Orientabilidad**
+Propiedad de admitir una orientación coherente.
+
+---
+
+## **Frontera**
+Límite de una región.
+
+---
+
+## **Interior**
+Puntos totalmente contenidos en la región.
+
+---
+
+## **Clausura**
+Región más sus puntos límite.
+
+---
+
+## **Arista**
+Borde entre superficies.
+
+---
+
+## **Vértice**
+Punto donde convergen aristas.
+
+---
+
+## **Curva simple cerrada**
+Curva que no se autointersecta y forma un lazo.
+
+---
+
+## **Teorema de la curva de Jordan**
+Toda curva simple cerrada divide el plano en interior y exterior.
+
+---
+
+## **Principio de conservación**
+Magnitudes que no varían dentro de un flujo.
+
+---
+
+## **Flujo vectorial**
+Movimiento según un campo vectorial.
+
+---
+
+## **Mapeo diferenciable**
+Transformación con derivadas continuas.
+
+---
+
+## **Constante de integración**
+Valor agregado al integrar campos conservativos.
+
+---
+
+## **Región trapecio**
+Región con límites lineales simples.
+
+---
+
+## **Cota**
+Valor extremo o límite para una variable.
+
+---
+
+## **Límite direccional**
+Límite tomado a lo largo de una dirección.
+
+---
+
+## **Límite iterado**
+Límite tomado en pasos sucesivos.
+
+---
+
+## **Límites no conmutativos**
+Límites cuyo resultado depende del orden.
+
+---
+
+## **Integración iterada**
+Evaluación de integrales múltiples paso a paso.
+
+---
+
+## **Integral definida**
+Valor numérico asociado al área firmada.
+
+---
+
+## **Integral indefinida**
+Conjunto de antiderivadas.
+
+---
+
+## **Campo estacionario**
+Campo sin variación temporal.
+
+---
+
+## **Solenoidal**
+Campo divergencia cero.
+
+---
+
+## **Irrotacional**
+Campo rotacional cero.
+
+---
+
+## **Función positiva**
+Toma valores estrictamente mayores que cero.
+
+---
+
+## **Función negativa**
+Toma valores negativos.
+
+---
+
+## **Función impar**
+f(–x) = –f(x).
+
+---
+
+## **Función par**
+f(–x) = f(x).
+
+---
+
+## **Integral definida por partes**
+Integración con subregiones especiales.
+
+---
+
+## **Recta tangente**
+Línea que toca una curva en un punto y comparte dirección.
+
+---
+
+## **Plano osculador**
+Plano generado por los vectores tangente y normal principal.
+
+---
+
+## **Normal principal**
+Dirección de curvatura máxima.
+
+---
+
+## **Binormal**
+Producto cruz de tangente y normal.
+
+---
+
+## **Marco de Frenet**
+Conjunto T, N, B.
+
+---
+
+## **Dilatación angular**
+Cambio de ángulos por una transformación.
+
+---
+
+## **Contracción**
+Escalamiento hacia el origen.
+
+---
+
+## **Expansión**
+Escalamiento hacia afuera.
+
+---
+
+## **Área orientada**
+Área con signo según orientación.
+
+---
+
+## **Longitud orientada**
+Longitud con signo según orientación.
+
+---
+
+## **Superficie orientada**
+Superficie con normal coherente.
+
+---
+
+## **Cálculo tensorial**
+Estudio de tensores y sus operaciones.
+
+---
+
+## **Componente tangencial**
+Parte del vector en dirección tangente.
+
+---
+
+## **Componente normal**
+Parte del vector perpendicular a una superficie.
+
+---
+
+## **Esfera geodésica**
+Generalización de círculos pequeños en geometría curva.
+
+---
+
+## **Geodésica**
+Curva de longitud mínima en una superficie.
+
+---
+
+## **Curvatura geodésica**
+Curvatura en dirección tangencial.
+
+---
+
+## **Curvatura normal**
+Curvatura hacia la normal.
+
+---
+
+## **Paralelos**
+Curvas constantes en coordenadas en superficies.
+
+---
+
+## **Meridianos**
+Curvas radiales en superficies.
+
+---
+
+## **Sección normal**
+Intersección de superficie con plano normal.
+
+---
+
+## **Superficie desarrollable**
+Superficie con curvatura gaussiana cero.
+
+---
+
+## **Cilindro recto**
+Cilindro con generatrices paralelas.
+
+---
+
+## **Cónica**
+Curva definida por intersección cónica.
+
+---
+
+## **Elipse**
+Curva cerrada definida por suma de distancias constante.
+
+---
+
+## **Hipérbola**
+Curva abierta definida por diferencia constante.
+
+---
+
+## **Parábola**
+Curva definida por foco y directriz.
+
+---
+
+## **Círculo**
+Conjunto de puntos equidistantes de un centro.
+
+---
+
+## **Esfera sólida**
+Región interior a una esfera.
+
+---
+
+## **Cono**
+Superficie generada por líneas desde un punto a una curva.
+
+---
+
+## **Cono elíptico**
+Cono con base elíptica.
+
+---
+
+## **Transformación invertible**
+Transformación con inversa.
+
+---
+
+## **Singularidad**
+Punto donde la transformación deja de ser invertible.
+
+---
+
+## **Corte**
+Intersección de superficies.
+
+---
+
+## **Corte transversal**
+Intersección con ángulo distinto de cero.
+
+---
+
+## **Línea característica**
+Curvas especiales en ecuaciones diferenciales.
+
+---
+
+## **Derivada de orden superior**
+Derivadas de orden dos o más.
+
+---
+
+## **Símbolo de Levi-Civita**
+Tensor antisimétrico usado para productos cruz.
+
+---
+
+## **Tensor métrico**
+Define longitudes y ángulos en geometría.
+
+---
+
+## **Tensor de segundo orden**
+Generalización de matrices.
+
+---
+
+## **Campo continuo**
+Campo sin saltos.
+
+---
+
+## **Campo suave**
+Campo con derivadas.
+
+---
+
+## **Superficie regular**
+Superficie con parametrización suave.
+
+---
+
+## **Transformación regular**
+Transformación con jacobiano distinto de cero.
+
+---
+
+## **Teorema de la función implícita**
+Garantiza resolver ecuaciones para variables dependientes.
+
+---
+
+## **Teorema de la función inversa**
+Asegura existencia de la transformación inversa localmente.
+
+---
+
+## **Potencial múltiple**
+Potencial definido en regiones con distintas constantes.
+
+---
+
+## **Curva límite**
+Borde de una superficie parametrizada.
+
+---
+
+## **Función de varias variables**
+Función con dos o más variables independientes.
+
+---
+
+## **Serie de Taylor multivariable**
+Expansión en potencias de varias variables.
+
+---
+
+## **Aproximación cuadrática**
+Extensión de aproximación lineal con términos de segundo orden.
+
+---
+
+## **Convexidad**
+Propiedad geométrica relacionada con posiciones relativas.
+
+---
+
+## **Cono tangente**
+Conjunto de vectores tangentes a una región.
+
+---
+
+## **Cresta**
+Zona de máxima curvatura en una superficie.
+
+---
+
+## **Valle**
+Región de mínima curvatura en superficie.
+
+---
+
+## **Curva integral**
+Solución de un campo direccional.
+
+---
+
+## **Región simple por partes**
+Región compuesta de subregiones simples.
+
+---
+
+## **Dominio poligonal**
+Región con fronteras poligonales.
+
+---
+
+## **Dominio circular**
+Región con fronteras circulares.
+
+---
+
+## **Campo homogéneo**
+Campo con magnitud constante.
+
+---
+
+## **Campo no homogéneo**
+Campo con variación espacial.
+
+---
+
+## **Difusión**
+Fenómeno modelado por ecuaciones del calor.
+
+---
+
+## **Propagación**
+Fenómeno modelado por ecuaciones de onda.
+
+---
+
+## **Espacio n-dimensional**
+Generalización del espacio tridimensional.
+
+---
+
+## **Cota superior**
+Valor mayor o igual a todos.
+
+---
+
+## **Cota inferior**
+Valor menor o igual a todos.
+
+---
+
+## **Supremo**
+Menor de las cotas superiores.
+
+---
+
+## **Ínfimo**
+Mayor de las cotas inferiores.
+
+---
+
+## **Curva recta**
+Curva con curvatura cero.
+
+---
+
+## **Plano vertical**
+Plano paralelo al eje z.
+
+---
+
+## **Plano horizontal**
+Plano paralelo al plano xy.
+
+---
+
+## **Nivel de energía**
+Constante en campos físicos.
+
+---
+
+## **Corte plano**
+Intersección de superficie con plano.
+
+---
+
+## **Corte vertical**
+Intersección con plano vertical.
+
+---
+
+## **Corte horizontal**
+Intersección con plano horizontal.
+
+---
+
+## **Gráfica tridimensional**
+Representación visual de una superficie.
+
+---
+
+## **Descenso máximo**
+Dirección de pendiente más pronunciada.
+
+---
+
+## **Subida máxima**
+Dirección de crecimiento máximo.
+
+---
+
+## **Campo discontinuo**
+Campo con saltos o cambios abruptos.
+
+---
+
+## **Región no convexa**
+Región con concavidades.
+
+---
 
 ## **Vector unitario**
 Vector con magnitud igual a 1.
