@@ -131,4 +131,280 @@ glosario_calculo_vectorial = {
     "Vector_unitario": (
         "Vector de longitud 1 que indica dirección."
     ),
+
+"Derivada": (
+        "Expresa cómo cambia instantáneamente una función cuando su variable "
+        "independiente varía infinitesimalmente."
+    ),
+
+    "Limite": (
+        "Valor al que se aproxima una función cuando su variable se acerca a un punto."
+    ),
+
+    "Continuidad": (
+        "Garantiza ausencia de saltos o rupturas; el límite y el valor de la función coinciden."
+    ),
+
+    "Regla_del_producto": (
+        "Método para derivar el producto de dos funciones utilizando sus derivadas individuales."
+    ),
+
+    "Regla_del_cociente": (
+        "Permite derivar un cociente aplicando estructura específica con derivadas del numerador y denominador."
+    ),
+
+    "Regla_de_la_cadena": (
+        "Permite derivar funciones compuestas multiplicando derivada externa evaluada internamente y la interna."
+    ),
+
+    "Punto_critico": (
+        "Lugar donde la derivada es cero o no existe; puede indicar máximos, mínimos o inflexiones."
+    ),
+
+    "Segunda_derivada": (
+        "Determina la curvatura de una función y la naturaleza de los puntos críticos."
+    ),
+
+    "Pendiente_tangente": (
+        "Valor de la derivada en el punto; expresa la velocidad instantánea de cambio."
+    ),
+
+    "Derivada_direccional": (
+        "Tasa de cambio de una función multivariable en una dirección específica."
+    ),
+
+    "Gradiente_extendido": (
+        "Vector de derivadas parciales que señala dirección de mayor incremento."
+    ),
+
+    "Diferenciacion_implicita": (
+        "Permite derivar sin despejar la variable dependiente usando regla de la cadena."
+    ),
+
+    "Aproximacion_lineal": (
+        "Estimación local de una función mediante la recta tangente."
+    ),
+
+    "Serie_de_Taylor": (
+        "Representación de una función como suma infinita basada en sus derivadas."
+    ),
+
+    "Serie_de_Maclaurin": (
+        "Caso particular de Taylor centrado en cero."
+    ),
+
+    "Monotonia": (
+        "Describe si una función crece o decrece según el signo de la derivada."
+    ),
+
+    "Tasa_de_cambio_instantanea": (
+        "Variación instantánea de una cantidad respecto a otra."
+    ),
+
+    "Teorema_de_Rolle": (
+        "Si f(a)=f(b) y es continua y derivable, existe un punto donde f’=0."
+    ),
+
+    "Teorema_del_valor_medio": (
+        "Existe un punto donde la derivada es igual a la pendiente promedio del intervalo."
+    ),
+
+    "Funcion_diferenciable": (
+        "Es continua y posee derivada en todo punto del dominio."
+    ),
+
+    "Curvatura": (
+        "Mide la desviación de una curva respecto a la línea recta."
+    ),
+
+    "Punto_de_inflexion": (
+        "Lugar donde la concavidad cambia de signo."
+    ),
+
+    "Derivadas_laterales": (
+        "Pendientes obtenidas acercándose desde la izquierda o derecha."
+    ),
+
+    "Incremento_diferencial": (
+        "Cambio aproximado de una función asociado a variaciones pequeñas en sus variables."
+    ),
+
+    "Elasticidad": (
+        "Variación porcentual de una función ante cambios porcentuales en su variable."
+    ),
+
+    "Derivada_logaritmica": (
+        "Técnica útil para derivar productos y potencias utilizando logaritmos."
+    ),
+
+    "Derivadas_parciales": (
+        "Miden el cambio de una función respecto a una variable manteniendo constantes las demás."
+    ),
+
+    "Criterio_primera_derivada": (
+        "Clasifica máximos y mínimos según cambio de signo en la derivada."
+    ),
+
+    "Criterio_segunda_derivada": (
+        "Determina si un punto crítico es máximo o mínimo analizando la concavidad."
+    ),
+
+    "Funcion_suave": (
+        "Posee derivadas continuas hasta cierto orden."
+    ),
+
+    "Derivada_numerica": (
+        "Aproximación de la derivada mediante diferencias finitas."
+    ),
+
+    "Velocidad_instantanea": (
+        "Derivada de la posición respecto al tiempo."
+    ),
+
+    "Aceleracion": (
+        "Derivada de la velocidad; segunda derivada de la posición."
+    ),
+
+    "Ecuaciones_diferenciales": (
+        "Relaciones entre funciones y sus derivadas que modelan fenómenos dinámicos."
+    ),
+
+    "Funcion_lipschitziana": (
+        "Satisface una desigualdad que garantiza unicidad de soluciones en EDOs."
+    ),
+
+    "Extremo_absoluto": (
+        "Máximo o mínimo global en todo el dominio."
+    ),
+
+    "Extremo_relativo": (
+        "Máximo o mínimo local dentro de un intervalo reducido."
+    ),
+
+    "Optimizacion": (
+        "Proceso de encontrar valores que maximizan o minimizan una función."
+    ),
+
+    "Derivada_trigonometrica": (
+        "Expresiones derivadas de funciones trigonométricas basadas en el círculo unitario."
+    ),
+
+    "Funcion_convexa": (
+        "Presenta derivada creciente y concavidad hacia arriba."
+    ),
+
+    # --- Desde concepto 141 en adelante (ya en tu lista base), resumo y agrego claves coherentes ---
+
+    "Campo_vectorial_extendido": (
+        "Asigna un vector a cada punto del espacio, representando fuerzas o flujos."
+    ),
+
+    "Campo_escalar_extendido": (
+        "Asigna un valor real a cada punto, como temperatura o presión."
+    ),
+
+    "Gradiente_de_campo_escalar": (
+        "Vector de máximo crecimiento de un campo escalar."
+    ),
+
+    "Divergencia_de_campo": (
+        "Mide flujo neto que entra o sale de un punto."
+    ),
+
+    "Rotacional_de_campo": (
+        "Mide tendencia de un campo a girar alrededor de un punto."
+    ),
+
+    "Operador_nabla": (
+        "Símbolo ∇ que agrupa gradiente, divergencia y rotacional."
+    ),
+
+    "Curva_parametrizada_extendida": (
+        "Trayectoria descrita mediante un parámetro para estudiar velocidad o longitud."
+    ),
+
+    "Longitud_de_curva": (
+        "Integral de la norma del vector velocidad."
+    ),
+
+    "Curvatura_de_curva": (
+        "Mide el cambio de dirección por unidad de longitud de arco."
+    ),
+
+    "Vector_tangente_unitario": (
+        "Indica la dirección de movimiento normalizada."
+    ),
+
+    "Vector_normal_principal": (
+        "Indica la dirección del cambio de la tangente."
+    ),
+
+    "Vector_binormal": (
+        "Completa el sistema ortonormal de Frenet-Serret."
+    ),
+
+    "Torsion": (
+        "Mide cuánto se aleja una curva de un plano."
+    ),
+
+    "Producto_punto_avanzado": (
+        "Calcula proyección y ángulo entre vectores."
+    ),
+
+    "Producto_cruz_avanzado": (
+        "Genera vector perpendicular que mide área orientada."
+    ),
+
+    "Jacobiano_avanzado": (
+        "Determinante clave en cambios de variables múltiples."
+    ),
+
+    "Integral_de_linea_escalar": (
+        "Integra un campo escalar sobre una curva."
+    ),
+
+    "Integral_de_linea_vectorial": (
+        "Mide trabajo realizado por un campo a lo largo de un camino."
+    ),
+
+    "Circulacion_avanzada": (
+        "Flujo tangencial alrededor de una curva cerrada."
+    ),
+
+    "Flujo_vectorial_avanzado": (
+        "Cantidad de campo que atraviesa una superficie."
+    ),
+
+    "Superficie_parametrizada_extendida": (
+        "Describe superficies mediante dos parámetros."
+    ),
+
+    "Vector_normal_superficie": (
+        "Perpendicular obtenido mediante producto cruz de tangentes."
+    ),
+
+    "Area_de_superficie": (
+        "Integral de la norma del producto cruz de vectores tangentes."
+    ),
+
+    "Laplaciano": (
+        "Divergencia del gradiente; mide difusión o comportamiento armónico."
+    ),
+
+    "Curvatura_gaussiana": (
+        "Producto de las curvaturas principales de una superficie."
+    ),
+
+    "Curvatura_media": (
+        "Promedio de las curvaturas principales."
+    ),
+
+    "Geodesica": (
+        "Curva de longitud mínima sobre una superficie."
+    ),
+
+    "Superficie_minima": (
+        "Cumple curvatura media cero; típica en películas de jabón."
+    ),
+
 }
